@@ -14,7 +14,7 @@ import static io.qameta.allure.Allure.step;
 @Epic("any")
 @Feature("your")
 @Story("metadata")
-public class AppTests  {
+public class AppTests extends TestBase {
 
     @Test
     @Description("Soon to be implemented by QA.GURU engineers")
