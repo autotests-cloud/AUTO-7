@@ -26,7 +26,7 @@ public class AppTests extends TestBase {
         });
 
         step("Seen word 'СКЪРО' or 'БЕГN'", () -> {
-            $(".main").shouldHave(text("БЕГN"));
+            $("#main").shouldHave(text("Скъро"));
         });
 
     }
